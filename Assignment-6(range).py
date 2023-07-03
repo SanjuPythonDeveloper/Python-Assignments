@@ -98,14 +98,15 @@ while i>0:
     i=i-1
 '''
 
-#9. Write a program to generate all numbers from -2 to 2 except -1 and 1?
+#9. Write a program to generate all numbers from -2 to 2 except -1 and 1?
+
 '''
 for i in range(-2,3,1):
     if (i==-1 and i==1):
         continue
     print(i)
 '''
-
+'''
 i=-2
 while i>3:
     if (i==-1 or i==1):
@@ -113,7 +114,7 @@ while i>3:
         continue
     print(i)
     i=i+1
-
+'''
 #10.Write a program to generate all 3 divisibles from 15 to -15 except even numbers
 '''
 for i in range(15,-15,-2):
